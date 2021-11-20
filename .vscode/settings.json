@@ -1,0 +1,25 @@
+{
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.trimAutoWhitespace": true,
+    "files.exclude": {
+        ".tscache/**/*": true,
+        "**/.git": true,
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "eslint.validate": [
+        "typescript"
+    ],
+    "eslint.workingDirectories": [
+        {
+            "directory": "./src"
+        }
+    ],
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.importModuleSpecifierEnding": "minimal",
+    "typescript.preferences.quoteStyle": "single"
+}
