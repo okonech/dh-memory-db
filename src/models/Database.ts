@@ -38,7 +38,7 @@ export class MemoryDb {
             case 'delete':
                 return this.delete(key);
             case 'count':
-                return this.count(key);
+                return this.count(key).toString();
             case 'begin':
                 return this.begin();
             case 'rollback':
